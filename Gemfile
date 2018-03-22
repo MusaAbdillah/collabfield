@@ -44,6 +44,7 @@ gem 'rails-controller-testing'
 gem 'headless'
 gem 'poltergeist'
 gem 'database_cleaner' 
+gem 'faker'
 
 
 group :development, :test do
