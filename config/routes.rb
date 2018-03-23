@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   	get 'signup' => "devise/registrations#new"
   end 
 
-  resource :posts do 
+  resources :posts do 
   	collection do
   		get "hobby"
   		get "study"
