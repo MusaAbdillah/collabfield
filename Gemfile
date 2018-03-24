@@ -45,6 +45,7 @@ gem 'headless'
 gem 'poltergeist'
 gem 'database_cleaner' 
 gem 'faker'
+gem 'will_paginate', '~> 3.1.0'
 
 
 group :development, :test do
