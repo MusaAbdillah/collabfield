@@ -17,15 +17,15 @@ def seed_categories
 	team = %w(Study Development Arts\ and\ Hobby Other)
 
 	hobby.each do |name|
-		Category.create(branch: "Hobby", name: name)
+		Category.create(branch: "hobby", name: name)
 	end	
 
 	study.each do |name|
-		Category.create(branch: "Study", name: name)
+		Category.create(branch: "study", name: name)
 	end
 
 	team.each do |name|
-		Category.create(branch: "Team", name: name)
+		Category.create(branch: "team", name: name)
 	end
 end
 
